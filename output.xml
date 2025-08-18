@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.2 on win32)" generated="2025-08-18T17:31:16.556030" rpa="false" schemaversion="5">
+<suite id="s1" name="Teste Site" source="c:\voltz\workspace\robot-tests-learning\teste_site.robot">
+<test id="s1-t1" name="Abrir Site Exemplo" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-08-18T17:31:16.898123" level="INFO">Opening browser 'chrome' to base url 'https://example.com'.</msg>
+<arg>https://example.com</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-08-18T17:31:16.897311" elapsed="11.115126"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2025-08-18T17:31:28.019178" level="INFO">Page title is 'Example Domain'.</msg>
+<arg>Example Domain</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2025-08-18T17:31:28.014175" elapsed="0.005285"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-08-18T17:31:28.019909" elapsed="2.405511"/>
+</kw>
+<status status="PASS" start="2025-08-18T17:31:16.896440" elapsed="13.530166"/>
+</test>
+<status status="PASS" start="2025-08-18T17:31:16.559739" elapsed="13.868075"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Teste Site" id="s1" pass="1" fail="0" skip="0">Teste Site</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
