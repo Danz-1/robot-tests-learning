@@ -8,4 +8,4 @@ O objetivo foi validar o ambiente de testes, versionamento com **Git/GitHub** e 
 ##  Objetivos
 - Instalar e configurar Robot Framework + SeleniumLibrary.
 - Criar um teste simples abrindo um site no navegador.
-- Validar a execução do teste e gerar relatório.
+- Validar a execução do teste
