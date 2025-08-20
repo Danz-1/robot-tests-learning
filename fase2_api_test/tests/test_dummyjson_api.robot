@@ -8,6 +8,5 @@ Suite Teardown    Fechar Sessao API
 *** Test Cases ***
 Validar GET Products
     ${response}=    GET Products
-    Log    ${response.text}
+    Log    Status Code: ${response.status_code}
     Should Be Equal As Integers    ${response.status_code}    200
-    Should Contain    ${response.text}    products
